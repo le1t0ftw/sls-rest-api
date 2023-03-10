@@ -11,7 +11,6 @@ phases:
       - echo Installing npm dependencies of note services
       - npm install
   build:
-    run-as: Linux-user-name
     on-failure: ABORT
     commands:
       - npm test
